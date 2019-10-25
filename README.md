@@ -1,5 +1,5 @@
 # Python-selenium3（自动化测试）
-##### 解决“selenium.common.exceptions.SessionNotCreatedException: Message: Unable to find a matching set of capabilities“
+##### 1、解决“selenium.common.exceptions.SessionNotCreatedException: Message: Unable to find a matching set of capabilities“
 
 selenium 启动firefox浏览器时，报错：selenium.common.exceptions.SessionN otCreatedException:   Message: Unable to find a matching set of capabilities
 
@@ -22,7 +22,7 @@ chromedriver：v2.46	   下载地址：http://npm.taobao.org/mirrors/chromedrive
 
 
 
-#####	使用selenium登录126邮箱定位失败原因-报错：selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="auto-id-"]
+#####	2、使用selenium登录126邮箱定位失败原因-报错：selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="auto-id-"]
 
 原因：此id是动态id，每次刷新http://www.126.com页面该值都会变话。因此找不到对应元素。网易用了iframe框架，需要先定位到iframe框架，才能找到内部的元素.
 
