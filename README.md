@@ -23,7 +23,7 @@ chromedriver：v2.46	   下载地址：http://npm.taobao.org/mirrors/chromedrive
 
 #####	2、使用selenium登录126邮箱定位失败原因-报错：selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="auto-id-"]
 
-原因：此id是动态id，每次刷新http://www.126.com页面该值都会变话。因此找不到对应元素。网易用了iframe框架，需要先定位到iframe框架，才能找到内部的元素.
+原因：此id是动态id，每次刷新 http://www.126.com 页面该值都会变话。因此找不到对应元素。网易用了iframe框架，需要先定位到iframe框架，才能找到内部的元素.
 
 但是iframe的ID也是随机生成，name为空，所以需要找到iframe这个元素才能定位
 
